@@ -1,0 +1,35 @@
+파이썬으로 만든 코드를 스트림릿에 배포하는 프로젝트
+구글시트파일을 연동하는 거라 구글사용자인증키, 구글시트 아이디, 구글AI스튜디오 API를 관리할 환경설정.env 파일을 만들어줘
+
+
+# 1. Google AI Studio (Gemini) 설정
+GEMINI_API_KEY=your_gemini_api_key_here
+
+# 2. Google Sheets 설정
+# 시트 브라우저 주소창의 /d/ 와 /edit 사이에 있는 문자열입니다.
+SPREADSHEET_ID=your_google_sheet_id_here
+
+# 3. 구글 서비스 계정 인증 정보 (JSON 파일의 내용들)
+# JSON 파일을 열어서 해당 항목의 값을 복사해서 넣으세요.
+GOOGLE_PROJECT_ID=your_project_id
+GOOGLE_PRIVATE_KEY_ID=your_private_key_id
+GOOGLE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nYour_Key_Content\n-----END PRIVATE KEY-----"
+GOOGLE_CLIENT_EMAIL=your_service_account_email@project.iam.gserviceaccount.com
+GOOGLE_CLIENT_ID=your_client_id
+
+
+
+GOOGLE_APPLICATION_CREDENTIALS="./key/key.json"
+GOOGLE_SHEET_ID="1cF3nRqprFFEpI7ksoOc0VR-V7oferSYw5D23PtXmplo"
+GOOGLE_API_KEY="AIzaSyAr_J_aj5biGLJDtH6d3VkS7EPhhTH5EdE"
+
+
+
+
+
+
+pip install -r requirements.txt
+--> 일괄설치
+
+pip freeze > requirements.txt
+---> 본인의 설정을 txt로 만드는 방법
