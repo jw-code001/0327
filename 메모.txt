@@ -33,3 +33,24 @@ pip install -r requirements.txt
 
 pip freeze > requirements.txt
 ---> 본인의 설정을 txt로 만드는 방법
+
+
+class SheetManager: # 야가 여러 def를 묶어서 한번에
+    def
+    def
+
+__init__.py
+야가 있어서 다른 py들이 한개의 파일처럼 컴에게 보이게 한 것
+
+
+
+
+
+
+
+
+
+
+
+
+
